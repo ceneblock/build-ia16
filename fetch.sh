@@ -21,7 +21,8 @@ do_git_clone () {
     fi
     if test -e "$name/.git/config"
     then
-	do_banner "$name already downloaded, skipping"
+	do_banner "$name already downloaded; updating via fast-forward pull"
+	(cd "$name" && git pull --ff-only)
 	return 0
     fi
     do_banner "Trying to download $name Git repository using SSH"
