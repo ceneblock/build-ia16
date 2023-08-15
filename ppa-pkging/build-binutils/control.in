@@ -5,8 +5,8 @@ Maintainer: TK Chia <tkchia@gmx.com>
 Build-Depends: debhelper (>=9), autotools-dev, texinfo, bison, flex, gettext,
  dejagnu, quilt, python3:any, file, lsb-release, zlib1g-dev
 Standards-Version: 3.9.6
-Homepage: https://github.com/crtc-demos/binutils-ia16
-Vcs-Git: https://github.com/crtc-demos/binutils-ia16.git
+Homepage: https://gitlab.com/tkchia/binutils-ia16
+Vcs-Git: https://gitlab.com/tkchia/binutils-ia16.git
 
 Package: binutils-ia16-elf@ifstatic@
 Architecture: any

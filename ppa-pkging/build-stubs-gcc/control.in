@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: TK Chia <tkchia@gmx.com>
 Build-Depends: debhelper (>=9), gcc-ia16-elf (>= @gcc_ver@)
 Standards-Version: 3.9.6
-Homepage: https://github.com/tkchia/build-ia16
-Vcs-Git: https://github.com/tkchia/build-ia16.git
+Homepage: https://gitlab.com/tkchia/build-ia16
+Vcs-Git: https://gitlab.com/tkchia/build-ia16.git
 
 Package: g++-ia16-elf
 Architecture: any
