@@ -1,3 +1,5 @@
+[![Casual Maintenance Intended](badge.svg)](https://casuallymaintained.tech/)
+
 (possible workflow to build compiler toolchain on Linux build machine, for Linux host and/or DJGPP/MS-DOS host)
 
          «START»
